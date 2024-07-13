@@ -69,7 +69,7 @@ This project showcases a minimal setup for sending emails in a Flask web applica
 
 ## Configuration
 
-1. **Environment Variables: Create a .env file in the root directory with the following content:**
+1. **Environment Variables: Create a .env file in the root directory with the following content Or Modify mine:**
     ```sh
     MAIL_SERVER=smtp-relay.sendinblue.com
     MAIL_PORT=587
@@ -79,7 +79,7 @@ This project showcases a minimal setup for sending emails in a Flask web applica
     MAIL_DEFAULT_SENDER=    #write email used to login in brevo or your own domain
     ```
  
-2. **Flask Environment Variables: Create a .flaskenv file in the root directory with the following content:**
+2. **Flask Environment Variables: Create a .flaskenv file in the root directory with the following content Or Modify mine:**
     ```sh
     FLASK_APP=__init__.py
     FLASK_ENV=development

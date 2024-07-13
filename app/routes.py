@@ -13,6 +13,7 @@ def publish():
                 '[Microblog] Test case',
                 sender=app.config["MAIL_SENDER"],
                 recipients=['test-fi3ylmc1j@srv1.mail-tester.com'],
+                #use spam checker such as https://www.mail-tester.com/ to verify your mail does not fall in spam
                 body="This is the plain text version of the email. It is important to have a plain text version for better deliverability.",
                 html="""
                 <html>
