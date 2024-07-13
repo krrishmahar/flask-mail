@@ -6,13 +6,13 @@ A simple Flask application demonstrating how to send emails using Flask-Mail and
 
 - [Introduction](#introduction)
 - [Project Structure](#project-structure)
+- [Side Chick](#side-chick)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Running the Application](#running-the-application)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [Contact](#contact)
+- [LICENSE](#license)
 
 ## Introduction
 
@@ -25,19 +25,20 @@ This project showcases a minimal setup for sending emails in a Flask web applica
 - In Dashboard, copy {Login, Master Password} 
 
 ## Project Structure
-flask-mail-demo/
-│
-├── app/
-│ ├── init.py
-│ ├── routes.py
-│
-├── config.py
-├── .env
-├── .flaskenv
-├── requirements.txt
-├── run.py
-├── LICENSE
-└── README.md
+``` sh
+    flask-mail-demo/
+    │
+    ├── app/
+    │ ├── init.py
+    │ ├── routes.py
+    │
+    ├── config.py
+    ├── .env
+    ├── .flaskenv
+    ├── requirements.txt
+    ├── LICENSE
+    └── README.md
+```
 
 ## Requirements
 
