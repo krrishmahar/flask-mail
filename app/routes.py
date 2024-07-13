@@ -10,7 +10,7 @@ def publish():
     try:
         with mail.connect() as conn:
             msg = Message(
-                '[Microblog] Test case',
+                '[mail app demo] Test case',
                 sender=app.config["MAIL_SENDER"],
                 recipients=['test-fi3ylmc1j@srv1.mail-tester.com'],
                 body="This is the plain text version of the email. It is important to have a plain text version for better deliverability.",
